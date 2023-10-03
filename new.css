@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;300;400&family=Mochiy+Pop+One&family=Norican&display=swap');
+html, body {
+    font-size: 14px;
+    color: white;
+    background: wheat;
+    font-family: paprika, sans-serif;
+}
+a {
+    text-decoration: navy;
+
+}
+
+.top-header {
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    color: black;
+    z-index: 1;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.bg-color{
+    background: scroll, left;
+}
+
+.main-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.navbar-brand img {
+    width: auto;
+    height: 70px;
+}
+
+.collapse {
+    position: relative;
+    top: 1px;
+
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color:black;
+    font-size: 12px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.nav-link {
+    margin-left: 10px!important;
+
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: left;
+}
+
+.fixed-top {
+    background: skyblue;
+}
+
+nav .social-media a{
+    color: orangered;
+    font-size: 25px;
+    top: 15px;
+    position: relative;
+    margin-right: 30px;
+    float: right;
+}
+.gallery {
+    padding: 100px 30px;
+    background-color: black;
+    box-shadow: 0 0.375rem 1.5rem 0 rgba(140, 152, 164, 0.125);
+    width: auto;
+    float: left;
+    border: 1px solid red;
+    border-radius: 75px;
+    box-sizing: border-box;
+    position: relative;
+}
+.gallery p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+.gallery .gallery-img {
+    width: 80px;
+    float: left;
+}
+.gallery img {
+    width: 70px!important;
+    height: 70px!important;
+    border-radius: 50px;
+}
+.gallery .gallery-user {
+    width: calc(100% - 100px);
+    float: left;
+    margin-top: 5px;
+}
+.gallery h3{
+    text-align: center;
+    color: black;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+.owl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black!important;
+    margin-right: 10px;
+}
+
+.owl-carowsel .owl-dots .active {
+    
+}
